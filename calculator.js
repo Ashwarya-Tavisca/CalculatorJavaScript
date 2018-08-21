@@ -34,6 +34,10 @@ function calculate() {
     }
 }
 document.addEventListener("keypress",function(e){
+	if(e.key == "/" || e.key == "*" || e.key == "+" || e.key == "-")
+	{
+		flag=0;
+	}
 	if(flag==1)
 	{
 		flag=0;
